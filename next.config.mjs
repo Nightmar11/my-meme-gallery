@@ -4,8 +4,8 @@ const nextConfig = {
     // 忽略构建时的 ESLint 错误
     ignoreDuringBuilds: true,
   },
+  // 如果以后提示 typescript 错误，这一行也能救命
   typescript: {
-    // 如果你有 TS 文件，也忽略 TS 错误
     ignoreBuildErrors: true,
   },
 };
